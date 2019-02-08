@@ -4,7 +4,8 @@ plugins{
 
 repositories{
   jcenter()
-  mavencentral()
+  mavenCentral()
+  mavenLocal()
 }
 
 jar{
@@ -14,5 +15,5 @@ jar{
 }
 
 dependencies{
-  compile group: 'org.apache.commons', name: 'commons-csv', version: '1.6'
+  compile "org.apache.commons:commons-csv:1.5"
 }
